@@ -11,9 +11,12 @@
 
 ## Decisions
 
-| Date | Label | Decision |
-| --- | --- | --- |
-| YYYY-MM-DD | OWNER DECISION | <decision> |
+Newest decisions get the next `DEC-NNN-NN` ID; cite the ID elsewhere instead
+of retelling the decision.
+
+| ID | Date | Label | Decision |
+| --- | --- | --- | --- |
+| DEC-NNN-01 | YYYY-MM-DD | OWNER DECISION | <decision> |
 
 ## Open gates and risks
 

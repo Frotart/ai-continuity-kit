@@ -13,7 +13,7 @@ Mesh system is live on both floors; the desk cabling is waiting on a quote.
 
 - Mesh units bought within budget — VERIFIED against the hardware sheet, 2026-03-20
 - Upstairs speed is fine — OWNER-REPORTED 2026-03-14 (phone test, not repeated)
-- Keep the old router as a fallback until 2026-04-15 — OWNER DECISION 2026-03-14
+- Keep the old router as a fallback until 2026-04-15 — OWNER DECISION, DEC-001-02
 - Test guest isolation before the cabling work — PROPOSED
 
 ## Next steps

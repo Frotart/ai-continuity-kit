@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-labelledby="t d">
+  <title id="t">How the AI Continuity Kit works</title>
+  <desc id="d">Any AI assistant reads approved knowledge from a Git knowledge repository and proposes changes. The owner approves content and pushes separately, and one writer commits. The knowledge repository points to originals in a separate data repository and never copies them.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#57606a"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1a7f37"/></marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#bc4c00"/></marker>
+  </defs>
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#1f2328}
+    .h{font-size:15px;font-weight:600}.s{font-size:12.5px;fill:#57606a}.l{font-size:12px;font-weight:600}
+    .box{fill:#f6f8fa;stroke:#d0d7de;stroke-width:1.2}
+  </style>
+  <rect x="0.5" y="0.5" width="899" height="439" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+
+  <!-- assistants -->
+  <rect class="box" x="30" y="70" width="170" height="54" rx="9"/><text class="h" x="115" y="102" text-anchor="middle">ChatGPT</text>
+  <rect class="box" x="30" y="150" width="170" height="54" rx="9"/><text class="h" x="115" y="182" text-anchor="middle">Claude</text>
+  <rect class="box" x="30" y="230" width="170" height="54" rx="9"/><text class="h" x="115" y="254" text-anchor="middle">Gemini</text><text class="s" x="115" y="272" text-anchor="middle">or any assistant</text>
+
+  <!-- knowledge repo -->
+  <rect x="300" y="60" width="290" height="234" rx="11" fill="#ddf4ff" stroke="#0969da" stroke-width="1.6"/>
+  <text class="h" x="445" y="90" text-anchor="middle">Knowledge repository (Git)</text>
+  <text class="s" x="445" y="108" text-anchor="middle">private · the single source of truth</text>
+  <text x="324" y="142" font-size="13">today.md → current.md → status.md</text>
+  <text x="324" y="168" font-size="13">Decisions with IDs (DEC-001-02)</text>
+  <text x="324" y="194" font-size="13">Evidence label on every claim</text>
+  <text x="324" y="220" font-size="13">Lessons, gotchas, handoffs</text>
+  <text x="324" y="246" font-size="13">AGENTS.md: rules every assistant follows</text>
+  <text class="s" x="324" y="276">Read cheapest first; search long files.</text>
+
+  <!-- read arrows -->
+  <line x1="300" y1="97" x2="204" y2="97" stroke="#57606a" stroke-width="1.6" marker-end="url(#a)"/>
+  <line x1="300" y1="177" x2="204" y2="177" stroke="#57606a" stroke-width="1.6" marker-end="url(#a)"/>
+  <line x1="300" y1="257" x2="204" y2="257" stroke="#57606a" stroke-width="1.6" marker-end="url(#a)"/>
+  <text class="l" x="250" y="168" text-anchor="middle" fill="#57606a">read</text>
+
+  <!-- propose path -->
+  <path d="M115 70 V36 H775 V64" fill="none" stroke="#bc4c00" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#o)"/>
+  <rect x="352" y="26" width="188" height="20" fill="#ffffff"/>
+  <text class="l" x="446" y="40" text-anchor="middle" fill="#bc4c00">any assistant proposes</text>
+
+  <!-- owner and writer -->
+  <rect class="box" x="690" y="68" width="170" height="74" rx="9"/>
+  <text class="h" x="775" y="96" text-anchor="middle">You, the owner</text>
+  <text class="s" x="775" y="114" text-anchor="middle">1. accept the content</text>
+  <text class="s" x="775" y="131" text-anchor="middle">2. approve the push</text>
+  <line x1="775" y1="142" x2="775" y2="198" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#g)"/>
+  <text class="l" x="784" y="175" fill="#1a7f37">approved</text>
+  <rect class="box" x="690" y="202" width="170" height="62" rx="9"/>
+  <text class="h" x="775" y="228" text-anchor="middle">One writer</text>
+  <text class="s" x="775" y="246" text-anchor="middle">checks the base, commits</text>
+  <line x1="690" y1="233" x2="594" y2="233" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#g)"/>
+  <text class="l" x="642" y="224" text-anchor="middle" fill="#1a7f37">commit</text>
+
+  <!-- data repo -->
+  <line x1="445" y1="294" x2="445" y2="342" stroke="#57606a" stroke-width="1.6" stroke-dasharray="2 4" marker-end="url(#a)"/>
+  <text class="l" x="455" y="323" fill="#57606a">points to, never copies</text>
+  <rect class="box" x="300" y="346" width="290" height="66" rx="11"/>
+  <text class="h" x="445" y="372" text-anchor="middle">Data repository (Drive, etc.)</text>
+  <text class="s" x="445" y="392" text-anchor="middle">originals, records, confidential files</text>
+
+  <text class="s" x="30" y="412">No assistant approves its own changes.</text>
+</svg>
