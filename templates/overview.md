@@ -2,7 +2,7 @@
 
 **Master file:** Primary entry point for PRJ-NNN. Keep this project's scope,
 decisions and knowledge in its own records.
-**Supporting records:** [Status](status.md)
+**Supporting records:** [Current state](current.md) · [Status](status.md)
 **Classification:** Internal
 **Owner:** <name or role>
 
@@ -32,4 +32,5 @@ Original documents live in the data repository; this file only points to them.
 
 <What this project does NOT authorize, and related projects or dependencies.>
 
-Read [status.md](status.md) for the latest checkpoint and open work.
+Read [current.md](current.md) for where things stand now, and
+[status.md](status.md) for the full history.

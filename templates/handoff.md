@@ -1,5 +1,7 @@
 # Handoff — PRJ-NNN
 
+<!-- Save as handoffs/YYYY-MM-DD-PRJ-NNN-topic.md -->
+
 **From:** <assistant or person> · **To:** <assistant or person> · **Date:** YYYY-MM-DD
 **Repository revision read:** <commit SHA> (live access | pasted snapshot)
 
