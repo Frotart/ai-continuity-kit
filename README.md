@@ -145,7 +145,7 @@ This is a living system, and I'd like to hear how others solve the same
 problem. Open an issue if something is unclear, if you've adapted the kit for
 a different workflow, or if one of the rules doesn't hold up in your use.
 
-Built by [Rashad Rameez](https://github.com/Frotart) · [LinkedIn](https://www.linkedin.com/in/rashad-rameez)
+Built by [Rashad Rameez](https://github.com/Frotart)
 
 ## License
 
