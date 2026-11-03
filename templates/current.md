@@ -15,7 +15,7 @@
 
 - <Fact> — VERIFIED <evidence, date>
 - <Fact> — OWNER-REPORTED <date> (not independently checked)
-- <Decision> — OWNER DECISION <date>
+- <Decision> — OWNER DECISION, DEC-NNN-NN <date>
 
 ## Next steps
 

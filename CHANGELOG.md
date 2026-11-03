@@ -3,6 +3,42 @@
 Changes to the kit's structure and rules, newest first. Each entry says what
 changed and the lesson from real use that prompted it.
 
+## v0.3 — 2026-11-03
+
+Ideas borrowed from popular agent-tooling projects, kept within the kit's
+"you approve everything" model.
+
+**Added**
+
+- `AGENTS.md` section 3, "Write entries others can find": entry types
+  (decision, lesson, gotcha, open question) beside the evidence label;
+  `DEC-NNN-NN` decision IDs; searchable first lines; **(not repeat-safe)**
+  marks on procedure steps. *Lesson:* decisions retold in several places
+  drifted apart, and re-running a destructive step after an error is an easy
+  mistake.
+- Off-record rule and "screens and captures stay out" in `AGENTS.md`
+  section 4. *Lesson:* curious side questions were being drafted into project
+  records, and screenshots from browser automation carry private details.
+- Parallel-session branches and revision re-checks in `AGENTS.md` section 5.
+  *Lesson:* two sessions drafting against different revisions overwrite each
+  other.
+- `docs/why-evidence-labels.md` — the idea behind the labels, in plain words.
+- `docs/assets/how-it-works.svg` — diagram replacing the ASCII sketch.
+- `CONTRIBUTING.md` and issue templates for friction reports and adaptations.
+- README: two-minute start, "Who it's for", "How it compares", "I want to…"
+  table and FAQ.
+
+**Changed**
+
+- Reading order now ends with the data repository, opened only when a summary
+  isn't evidence enough.
+- `templates/status.md` and the synthetic PRJ-001 records use decision IDs;
+  `templates/knowledge.md` gains a Gotchas section; `templates/milestone.md`
+  adds the gotcha type.
+- `prompts/end-of-session.md` asks for decision IDs, lessons and gotchas, and
+  skips off-record parts of the chat.
+- `AGENTS.md` sections renumbered: former 3–8 are now 4–9.
+
 ## v0.2 — 2026-11-03
 
 Lessons from the first week of running a real knowledge repository built on

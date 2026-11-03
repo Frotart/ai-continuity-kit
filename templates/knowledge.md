@@ -12,8 +12,15 @@
 
 ## Reusable lessons
 
+Start each entry with a specific, searchable title of about ten words.
+
 **<Short title>:** <What happened, what it taught, and how to apply it next
 time.> — <evidence label, date>
+
+## Gotchas
+
+**<Specific title>:** <The trap, how it showed up, and how to avoid it.> —
+<evidence label, date>
 
 ## Known limitations
 

@@ -38,3 +38,8 @@ Escalate only after the cheaper tier fails twice on the same problem.
 Draft the update to the project's `current.md` and to `today.md` for the owner
 to accept (see [prompts/end-of-session.md](prompts/end-of-session.md)).
 Nothing is committed without the owner's explicit approval.
+
+## Parallel sessions
+
+When several sessions run at once, each works on its own branch from a stated
+base revision. Only the designated writer merges to the default branch.

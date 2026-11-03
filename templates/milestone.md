@@ -7,7 +7,7 @@ Copy one of these into the project's `status.md` under **Milestones**.
 ```markdown
 ### M-NNNN — <Title> (YYYY-MM-DD)
 
-- **Type:** decision | phase complete | finding | blocker | closure | lesson
+- **Type:** decision (give its DEC-NNN-NN ID) | phase complete | finding | blocker | closure | lesson | gotcha
 - **Change:** <previous state> → <resulting state>. <What changed, in a sentence.>
 - **Evidence:** <VERIFIED | OWNER DECISION | DOCUMENT CLAIM | …> — <source, and how/when checked>
 - **Completion basis:** independently verified | owner-reported | source-reported | not applicable

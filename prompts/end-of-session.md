@@ -10,9 +10,12 @@ carries the work forward. It turns the session into one reviewed change.
 >
 > 1. Report the commit SHA you are drafting against.
 > 2. From **this conversation only**, list each project touched (PRJ-NNN) and,
->    for each: decisions I made (with date), things verified (evidence, date),
+>    for each: decisions I made (with date and the next `DEC-NNN-NN` ID),
+>    lessons and gotchas worth keeping, things verified (evidence, date),
 >    things I reported doing that nobody checked, proposals not yet accepted,
->    and the next concrete step. If nothing material changed, say so and stop.
+>    and the next concrete step. Skip parts of the chat I marked curiosity,
+>    fun or "off record", unless I said "log that". If nothing material
+>    changed, say so and stop.
 > 3. Draft updates to each touched project's `current.md` and to `today.md`.
 >    Keep each file's layout, label every fact, never upgrade an owner report
 >    to VERIFIED, and end `current.md` with an opener line for the next

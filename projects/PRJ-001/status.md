@@ -15,10 +15,10 @@ arrives. Nothing else needs doing until then.
 
 ## Decisions
 
-| Date | Label | Decision |
-| --- | --- | --- |
-| 2026-03-02 | OWNER DECISION | Two-unit mesh system; hardware budget 200. |
-| 2026-03-14 | OWNER DECISION | Keep the old router as a fallback until 2026-04-15, then return it. |
+| ID | Date | Label | Decision |
+| --- | --- | --- | --- |
+| DEC-001-01 | 2026-03-02 | OWNER DECISION | Two-unit mesh system; hardware budget 200. |
+| DEC-001-02 | 2026-03-14 | OWNER DECISION | Keep the old router as a fallback until 2026-04-15, then return it. |
 
 ## Open gates and risks
 
@@ -43,13 +43,15 @@ arrives. Nothing else needs doing until then.
 - **Completion basis:** owner-reported
 - **Approval:** NOT APPLICABLE
 - **Next:** test guest isolation; obtain cabling quote.
+- **Gotcha:** the mesh app's "factory reset" step wipes both units, not just
+  the one selected — marked (not repeat-safe) in the setup notes.
 
 ### M-0002 — Hardware chosen (2026-03-02)
 
 - **Type:** decision
 - **Change:** options open → two-unit mesh selected.
-- **Evidence:** OWNER DECISION — chat with owner, 2026-03-02; comparison sheet
-  in the data repository.
+- **Evidence:** OWNER DECISION (DEC-001-01) — chat with owner, 2026-03-02;
+  comparison sheet in the data repository.
 - **Completion basis:** not applicable
 - **Approval:** ACCEPTED (owner, 2026-03-02)
 - **Next:** purchase within budget.
