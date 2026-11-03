@@ -4,7 +4,7 @@
 > Delete it when you add your own projects.
 
 **Master file:** Primary entry point for PRJ-001.
-**Supporting records:** [Status](status.md)
+**Supporting records:** [Current state](current.md) · [Status](status.md)
 **Classification:** Internal
 **Owner:** Repository owner
 
