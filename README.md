@@ -1,7 +1,7 @@
 # AI Continuity Kit
 
-**Keep your projects resumable across ChatGPT, Claude, Gemini — or any assistant
-— without trusting any of them to remember.**
+**Keep your projects resumable with any AI assistant, without trusting it to
+remember.**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-v0.3-green.svg)](CHANGELOG.md)
@@ -26,8 +26,8 @@ only approved changes get written back.
 
 ## Who it's for
 
-- You run several projects (a business, studies, a side project) and use
-  more than one AI assistant, or expect to switch.
+- You run several projects (a business, studies, a side project) and rely on
+  an AI assistant to help, whether that's one or several.
 - You've been burned by an assistant "remembering" something that was never
   decided.
 - You want a record you own, in plain Markdown, that any assistant can read
